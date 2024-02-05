@@ -1,0 +1,47 @@
+
+body{
+    margin-top: 20%;
+    background-color: aquamarine;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+
+}
+.box{
+   
+   width: 90%;
+   max-width: 480px;
+   min-width: 50px;
+   text-align: center;
+   padding: 20px;
+   margin: auto;
+   box-shadow: 0px 0px 30px #361416 ;
+    background-color:hotpink;
+}
+.opt{
+    display: inline;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 200px;
+    margin: 9%;
+    padding: 2%;
+      border-radius: 9%;
+}
+.opt:hover{
+    box-shadow: 2px 2px 9px white;
+    cursor: pointer;
+    border-radius: 19%;
+}
+#start{
+   background-color: purple;
+}
+#pause{
+    background-color: rgba(230, 230, 63, 0.507);
+}
+#reset{
+    background-color: rgb(245, 55, 55);
+}
